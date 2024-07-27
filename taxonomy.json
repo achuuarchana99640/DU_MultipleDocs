@@ -1,0 +1,555 @@
+﻿{
+  "DataContractVersion": "1.1",
+  "DocumentTypes": [
+    {
+      "DocumentTypeId": "EntrepriseName.AccountsDepartment.Receipts",
+      "Group": "ExpoHubCompany",
+      "Category": "AccountsDepartment",
+      "Name": "Receipt",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "EntrepriseName.AccountsDepartment.Receipts.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "EntrepriseName.AccountsDepartment.Receipts.BillNo",
+          "FieldName": "Bill No",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "EntrepriseName.AccountsDepartment.Receipts.PartyName",
+          "FieldName": "Receipt Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "EntrepriseName.AccountsDepartment.Receipts.BillAmount",
+          "FieldName": "Bill Amount",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "m"
+            }
+          ],
+          "RuleSet": null
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "ExpoHubCompany.AccountsDepartment.FinancialDocument",
+      "Group": "ExpoHubCompany",
+      "Category": "FinanceDepartment",
+      "Name": "FinancialDocument",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "ExpoHubCompany.AccountsDepartment.FinancialDocument.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "ExpoHubCompany.AccountsDepartment.FinancialDocument.FormType",
+          "FieldName": "Form Type",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "ExpoHubCompany.AccountsDepartment.FinancialDocument.State",
+          "FieldName": "State",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#9372b2"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "ExpoHubCompany.AccountsDepartment.invoiceSmall",
+      "Group": "ExpoHubCompany",
+      "Category": "AccountsDepartment",
+      "Name": "Invoice",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "ExpoHubCompany.AccountsDepartment.invoiceSmall.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "ExpoHubCompany.AccountsDepartment.invoiceSmall.VendorName",
+          "FieldName": "Vendor Name",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "v"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "ExpoHubCompany.AccountsDepartment.invoiceSmall.VendorAddress",
+          "FieldName": "Vendor Address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "e"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "ExpoHubCompany.AccountsDepartment.invoiceSmall.BillTo",
+          "FieldName": "Bill To",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "ExpoHubCompany.AccountsDepartment.invoiceSmall.InvoiceNum",
+          "FieldName": "Invoice Num",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#6eb84a"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "c"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "ExpoHubCompany.AccountsDepartment.invoiceSmall.DueDate",
+          "FieldName": "Due Date",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#226eff"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "ExpoHubCompany.AccountsDepartment.invoiceSmall.SubTotal",
+          "FieldName": "Sub Total",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#46cbc4"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "q"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "ExpoHubCompany.AccountsDepartment.invoiceSmall.VAT",
+          "FieldName": "VAT",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#95dc50"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "w"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "ExpoHubCompany.AccountsDepartment.invoiceSmall.Total",
+          "FieldName": "Total",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8eb2c3"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "ExpoHubCompany.JobDepartment.WForms",
+      "Group": "ExpoHubCompany",
+      "Category": "JobDepartment",
+      "Name": "WForms",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "ExpoHubCompany.JobDepartment.WForms.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "ExpoHubCompany.JobDepartment.WForms.FirstName",
+          "FieldName": "FirstName",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "r"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "ExpoHubCompany.JobDepartment.WForms.LastName",
+          "FieldName": "LastName",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "ExpoHubCompany.JobDepartment.WForms.Address",
+          "FieldName": "Address",
+          "IsMultiValue": false,
+          "Type": "Text",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#8a97a0"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null
+        }
+      ]
+    },
+    {
+      "DocumentTypeId": "ExpoHubCompany.LawDepartment.Certificate",
+      "Group": "ExpoHubCompany",
+      "Category": "LawDepartment",
+      "Name": "Certificate",
+      "OptionalUniqueIdentifier": "",
+      "TypeField": {
+        "FieldId": "ExpoHubCompany.LawDepartment.Certificate.DocumentType",
+        "FieldName": "Document Type"
+      },
+      "Fields": [
+        {
+          "FieldId": "ExpoHubCompany.LawDepartment.Certificate.FileNumber",
+          "FieldName": "FileNumber",
+          "IsMultiValue": false,
+          "Type": "Number",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#038a18"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "l"
+            }
+          ],
+          "RuleSet": null
+        },
+        {
+          "FieldId": "ExpoHubCompany.LawDepartment.Certificate.Dated",
+          "FieldName": "Dated",
+          "IsMultiValue": false,
+          "Type": "Date",
+          "DeriveFieldsFormat": "",
+          "Components": [],
+          "SetValues": [],
+          "Metadata": [
+            {
+              "Key": "Color",
+              "Value": "#fa6616"
+            },
+            {
+              "Key": "Hotkey",
+              "Value": "a"
+            }
+          ],
+          "RuleSet": null
+        }
+      ]
+    }
+  ],
+  "Groups": [
+    {
+      "Name": "ExpoHubCompany",
+      "Categories": [
+        "AccountsDepartment",
+        "FinanceDepartment",
+        "JobDepartment",
+        "LawDepartment"
+      ]
+    }
+  ],
+  "SupportedLanguages": [
+    {
+      "Name": "Undetermined Language",
+      "Code": "und"
+    },
+    {
+      "Name": "Bulgarian",
+      "Code": "bul"
+    },
+    {
+      "Name": "Cantonese",
+      "Code": "yue"
+    },
+    {
+      "Name": "Danish",
+      "Code": "dan"
+    },
+    {
+      "Name": "Dutch",
+      "Code": "nld"
+    },
+    {
+      "Name": "English",
+      "Code": "eng"
+    },
+    {
+      "Name": "French",
+      "Code": "fra"
+    },
+    {
+      "Name": "Georgian",
+      "Code": "kat"
+    },
+    {
+      "Name": "German",
+      "Code": "deu"
+    },
+    {
+      "Name": "Greek",
+      "Code": "ell"
+    },
+    {
+      "Name": "Hebrew",
+      "Code": "heb"
+    },
+    {
+      "Name": "Hindi",
+      "Code": "hin"
+    },
+    {
+      "Name": "Italian",
+      "Code": "ita"
+    },
+    {
+      "Name": "Japanese",
+      "Code": "jpn"
+    },
+    {
+      "Name": "Korean",
+      "Code": "kor"
+    },
+    {
+      "Name": "Macedonian",
+      "Code": "mkd"
+    },
+    {
+      "Name": "Mandarin",
+      "Code": "zho"
+    },
+    {
+      "Name": "Marathi",
+      "Code": "mar"
+    },
+    {
+      "Name": "Norwegian",
+      "Code": "nor"
+    },
+    {
+      "Name": "Polish",
+      "Code": "pol"
+    },
+    {
+      "Name": "Portuguese",
+      "Code": "por"
+    },
+    {
+      "Name": "Romanian",
+      "Code": "ron"
+    },
+    {
+      "Name": "Russian",
+      "Code": "rus"
+    },
+    {
+      "Name": "Serbian",
+      "Code": "srp"
+    },
+    {
+      "Name": "Spanish",
+      "Code": "spa"
+    },
+    {
+      "Name": "Swedish",
+      "Code": "swe"
+    },
+    {
+      "Name": "Telugu",
+      "Code": "tel"
+    },
+    {
+      "Name": "Turkish",
+      "Code": "tur"
+    }
+  ]
+}
